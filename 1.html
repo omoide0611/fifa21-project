@@ -5,11 +5,52 @@
     <title>FIFA21</title>
 
     <style>
-     a {color: silver;
-       text-decoration: none;}
-     h1 {font-size: 60px;
-         text-align: center;}
-      p {text-align: center;}
+    a {
+      color: silver;
+      text-decoration: none;
+    }
+    img{
+      display: block; margin: 30px auto;
+      padding: 0px;
+    }
+      h1 {
+        font-size: 70px;
+        text-align: center;
+      border-bottom:1px solid gray;
+      margin: 0;
+      padding: 20px;
+    }
+      p {
+        text-align: center;
+      }
+  .active{color: black;
+       text-decoration:underline;}
+
+       #grid ul{
+         border-right:1px solid gray;
+         width: 150px;
+         margin: 0;
+         padding: 20px;
+         padding-left: 35px;
+       }
+       h2{
+
+       }
+       body{
+         margin: 0;
+       }
+       #grid{
+         display: grid;
+         grid-template-columns: 300px 1fr;
+       }
+       #article{
+         padding-left: 25px;
+       }
+       #box{
+         border-width: 5px;
+         border-color: black;
+         border-style: double;
+       }
     </style>
 
   </head>
@@ -17,20 +58,27 @@
 
   <body>
 <h1>FIFA21</h1>
-<h2><a href="index.html">HOME</a></h2>
-<ul>
-  <br>
-  <li><a href="1.html"style="color:black;text-decoration:underline">개요</a></li>
-  <li><a href="2.html">게임플레이</a></li>
-  <li><a href="3.html">전작과 달라진 점</a></li>
-</ul>
-  <p>
-    <p>Frostbite 기반의 FIFA 21에서 팀워크를 발휘하여 승리하세요.
-    <br>길거리부터 경기장까지, FIFA 21에서는 그 어느 때보다 다양한 방법으로 게임을 즐길 수 있습니다.</p>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/SCqLBCcNFl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-    <p>축구 세계에서는 혼자 싸우는 게 아닙니다. WIN AS ONE! FIFA 21의 길거리와 경기장에서 새로운 기능으로 팀을 구성하고 팀워크를 발휘하여 더욱 큰 승리를 이뤄보세요.</p>
+<div id="grid">
+  <ul>
+    <h2><a href="index.html">HOME</a></h2>
+    <br>
+    <li><a href="1.html"style="color:black;text-decoration:underline">개요</a></li>
+    <li><a href="2.html">게임플레이</a></li>
+    <li><a href="3.html">전작과 달라진 점</a></li>
+  </ul>
+    <div id="article">
     <p>
-      FIFA 21은 축구를 소재로 한 비디오 게임으로 EA 스포츠의 FIFA 시리즈 28번째 정규작이다.</p>
-  </p>
+      </p>
+      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/SCqLBCcNFl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+      <br>
+      <p id="box">Frostbite 기반의 FIFA 21에서 팀워크를 발휘하여 승리하세요.
+      <br>길거리부터 경기장까지, FIFA 21에서는 그 어느 때보다 다양한 방법으로 게임을 즐길 수 있습니다.</p>
+      <br>
+      <p>축구 세계에서는 혼자 싸우는 게 아닙니다. WIN AS ONE! FIFA 21의 길거리와 경기장에서 새로운 기능으로 팀을 구성하고 팀워크를 발휘하여 더욱 큰 승리를 이뤄보세요.</p>
+      <p>
+        FIFA 21은 축구를 소재로 한 비디오 게임으로 EA 스포츠의 FIFA 시리즈 28번째 정규작이다.</p>
+    </p>
+    </div>
+  </div>
   </body>
 </html>
